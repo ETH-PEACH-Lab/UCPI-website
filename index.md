@@ -1,12 +1,12 @@
 # 
 
-# Proposal: Seminar on User-Centered Programming Interfaces
+# Seminar on User-Centered Programming Interfaces
 
 ![][image1]
 
 | Semester | Autumn Semester 2024 Thu	16:15-18:00	CAB G 52  |
 | :---- | :---- |
-| Lectures | April Wang [april.wang@inf.ethz.ch](mailto:april.wang@inf.ethz.ch)  TA: Zeyu Xiong |
+| Lectures | April Wang [april.wang@inf.ethz.ch](mailto:april.wang@inf.ethz.ch)  TA: Zeyu Xiong [zeyu.xiong@inf.ethz.ch](mailto:zeyu.xiong@inf.ethz.ch) |
 | Language of Instruction | English |
 | Credit | 2 credits |
 
