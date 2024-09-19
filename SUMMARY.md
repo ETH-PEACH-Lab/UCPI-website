@@ -8,6 +8,7 @@
 * [Course Format](course-logistics/course-format.md)
 * [Grading](course-logistics/grading.md)
 * [Syllabus](course-logistics/syllabus.md)
+* [Resources](course-logistics/resources.md)
 
 ## Topics
 
