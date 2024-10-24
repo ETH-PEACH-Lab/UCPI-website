@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # W7 - Data-Driven Storytelling
 
 ### Reading List
