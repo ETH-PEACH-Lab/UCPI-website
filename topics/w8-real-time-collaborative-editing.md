@@ -1,4 +1,8 @@
-# W8 - Real-time Collaborative Editing
+---
+hidden: true
+---
+
+# W9 - Real-time Collaborative Editing
 
 * [Collabode](https://dl.acm.org/doi/10.1145/2047196.2047215): Goldman, M., Little, G., & Miller, R. C. (2011, October). Real-time collaborative coding in a web IDE. In Proceedings of the 24th annual ACM symposium on User interface software and technology (pp. 155-164).\
 

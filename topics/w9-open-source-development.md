@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # W9 - Open Source Development
 
 ### Reading List

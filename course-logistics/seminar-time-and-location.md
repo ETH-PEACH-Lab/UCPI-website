@@ -16,4 +16,4 @@ icon: calendar-days
 ### Office Hours
 
 * April will host office hours every Friday 3pm-5pm. [RSVP](https://doodle.com/bp/aprilwang/aprils-office-hour) required
-* Zeyu will host office hours every Wednesday 3pm-5pm. RSVP TBD
+* Zeyu will host office hours every Wednesday 3pm-5pm. [RSVP](https://doodle.com/bp/zeyuxiong1/zeyu-office-hour) required
