@@ -35,3 +35,4 @@
 * [W11 - Scaling Feedback for Programming Learners](topics/w12-scaling-feedback-for-programming-learners.md)
 * [W12 - AI-Assisted Programming](topics/w13-ai-assisted-programming.md)
 * [W12 - Prompting as Programming](topics/w13-prompting-as-programming.md)
+* [W13 - Guest lecture from Adobe](topics/w13-guest-lecture-from-adobe.md)
