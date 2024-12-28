@@ -2,22 +2,22 @@
 
 Since the dawn of computing, two paradigms have dominated how we instruct machines: **text-based programming**, where developers write code to define behaviors and computations, and **direct manipulation**, where users interact with software interfaces to adjust and create content visually. Consider the evolution of graphics programming as a case study:
 
-Early video game developers, like Carol Shaw \[[9](#references)\], the creator of 3D Tic-Tac-Toe on the Atari 2600, would write some code, compile and run the program, and watch whether the shapes drawn onto the screen achieved their intended effect. If a point was off or a color felt wrong, they’d then go back into the code and repeat the entire process until they got the design right.  
-Nowadays, people use graphics software like Sketch \[[10](#references)\] to draw shapes with their mouse, drag around points, and select from a color picker. The “what you see is what you get” paradigm of direct manipulation is clearly the more natural way of creating vector graphics, and some would argue even to build User Interfaces. Yet, for many tasks, text-based programming remains indispensable. Why?
+Early video game developers, like Carol Shaw \[[9](#references)\], the creator of 3D Tic-Tac-Toe on the Atari 2600, would write some **code, compile and run** the program, and watch whether the shapes drawn onto the screen achieved their intended effect. If a point was off or a color felt wrong, they’d then go back into the code and repeat the entire process until they got the design right.  
+Nowadays, people use graphics software like Sketch \[[10](#references)\] to draw shapes with their mouse, drag around points, and select from a color picker. The **“what you see is what you get” paradigm** of direct manipulation is clearly the more natural way of creating vector graphics, and some would argue even to build User Interfaces. Yet, for many tasks, text-based programming remains indispensable. Why?
 
-![A comparison of text-base programming and direct manipulation](./w5-direct-manipulation-media/intro.png)
+![A comparison of text-based programming and direct manipulation.](./w5-direct-manipulation-media/intro.png)
 
-The power of code lies in its flexibility and abstraction. Developers can encode geometry using mathematical relationships, derive complex shapes from formulas, and build parametric designs that are responsive and reusable. Code allows precise control over the rendering process and can scale complexity in ways visual tools often cannot. That said, thinking in numbers and abstract relationships is challenging, and the iterative, trial-and-error nature of coding adds friction to the creative process.
+The power of code lies in its **flexibility and abstraction**. Developers can encode geometry using mathematical relationships, derive complex shapes from formulas, and build parametric designs that are responsive and reusable. Code allows precise control over the rendering process and can scale complexity in ways visual tools often cannot. That said, thinking in numbers and abstract relationships is challenging, and the iterative, trial-and-error nature of coding adds friction to the creative process.
 
-On the other hand, direct manipulation excels at immediacy and intuition. It provides instant feedback, enabling creators to explore ideas interactively without deciphering numeric representations. But this ease of use comes with limitations. The software's capabilities constrain designers, and output formats like SVG prioritize machine readability over human editability. This often forces a split: designers create static assets in visual tools, and developers adapt them in code for interactivity or animation.
+On the other hand, direct manipulation excels at **immediacy and intuition**. It provides instant feedback, enabling creators to explore ideas interactively without deciphering numeric representations. But this ease of use comes with limitations. The software's capabilities constrain designers, and output formats like SVG prioritize machine readability over human editability. This often forces a split: designers create static assets in visual tools, and developers adapt them in code for interactivity or animation.
 
-But what if we didn’t have to choose? What if we could directly interact with live program outputs and seamlessly modify the underlying code? This vision lies at the heart of Output-Directed Programming, a novel approach that combines the best of both paradigms.
+But what if we didn’t have to choose? **What if we could directly interact with live program outputs and seamlessly modify the underlying code?** This vision lies at the heart of **Output-Directed Programming**, a novel approach that combines the best of both paradigms.
 
 ### A Brief History of Output-Directed Programming
 
 Before its formal definition in 2019 through Hempel et al. \[[1](#references)\], many incremental works shaped its foundations:
 
-![A sampler of related work](./w5-direct-manipulation-media/related-work.png)
+![A sampler of related work.](./w5-direct-manipulation-media/related-work.png)
 
 Expanding on the core ideas of [Live Programming](./w6-live-programming.md), where people see their code’s output immediately and can travel through time, Sean McDermid’s APX \[[3](#references)\] introduced **mouse-based direct manipulation in code**. Programmers can modify number literals, extract expressions to variables, and abstract code blocks to functions by holding and dragging their mouse cursor in the IDE.
 
@@ -25,13 +25,15 @@ Going beyond in-code manipulations, Schreiber et al.’s Transmorphic \[[2](#ref
 
 Mayer et al. \[[4](#references)\] explored a complementary idea: **backporting edits from generated outputs to their source code**. In their prototype, changes made directly to generated HTML or CSS—such as altering a table row’s background color—propagate back to update the corresponding string in an Elm-like codebase.
 
-Finally, unifying ideas from the previous works, Hempel et al. developed **the first output-directed vector graphics IDE** with Sketch-n-Sketch \[[1](#references)\]. It enables three editing features through direct manipulation: Drawing shapes on the canvas, manipulating intermediates displayed via widgets, and refactoring by highlighting subjects and choosing from a menu.
+Finally, unifying ideas from the previous works, Hempel et al. developed **the first output-directed vector graphics IDE** with Sketch-n-Sketch \[[1](#references)\]. It enables three editing features through direct manipulation: Drawing shapes on the canvas, manipulating intermediates displayed via widgets, and refactoring by highlighting subjects and choosing from a menu:
+
+{% embed url="https://ravichugh.github.io/sketch-n-sketch/releases/uist-2019-acm-archive/" %}
 
 ### Looking Beneath the Surface: Successful Methods and Research Questions
 
 Making Output-Directed Programming a reality requires an IDE to understand and synthesize human-like code.
 
-![An overview of existing methods](./w5-direct-manipulation-media/method.png)
+![An overview of Sketch-n-Sketch's method.](./w5-direct-manipulation-media/method.png)
 
 Transmorphic and Sketch-n-Sketch use **Abstract Syntax Trees (ASTs)** to map code abstractions—such as functions, arrays, or maps—to interactive widgets, creating a hierarchy like matryoshka dolls. Refactoring options depend on the selected abstraction, enabling targeted edits like inlining or abstraction. This approach works well with **functional languages**, where expressions map directly to visual representations but are harder to get right with imperative languages.
 
@@ -45,9 +47,9 @@ To address this, Sketch-n-Sketch lets programmers guide edits by introducing gra
 
 Needless to say, we are still many papers away from achieving truly bidirectional programming experiences. We **haven’t even reached Turing completeness**. Without writing code manually, programmers using Sketch-n-Sketch can only complete 4 out of the 15 tasks of Potter et al.’s “Watch What I Do” \[[7](#references)\] benchmark.
 
-Recent advancements in code generation, such as GitHub’s Copilot \[[8](#references)\], show promise in bridging the gap between human intent and machine output. However, there remains significant potential to explore novel manipulation UIs and extend output-directed programming to non-visual domains. (How does one represent, say, a network call? How about a database query?)
+Recent **advancements in code generation**, such as GitHub’s Copilot \[[8](#references)\], show promise in bridging the gap between human intent and machine output. However, there remains significant potential to explore **novel manipulation UIs** and extend Output-Directed Programming to **non-visual domains**. (How does one represent, say, a network call? How about a database query?)
 
-Encouragingly, elements of output-directed programming are already emerging in the industry. Apple’s Xcode \[[5](#references)\] lets developers modify SwiftUI code by directly manipulating its preview, albeit in a limited way. This provides a glimpse into how such paradigms can make programming more accessible and experimental today while pointing towards the broader vision of efficient interactive programming experiences tomorrow.
+Encouragingly, elements of Output-Directed Programming are **already emerging in the industry**. Apple’s Xcode \[[5](#references)\] lets developers modify SwiftUI code by directly manipulating its preview, albeit in a limited way. This provides a glimpse into how such paradigms can make programming more **accessible and experimental** today while pointing towards the broader vision of **efficient interactive programming experiences** tomorrow.
 
 > **Alexander Zank <[zank.me](https://zank.me)>**  
 > is a Master’s Student in Computer Science at ETH Zürich and a researcher in Human-Centered Computing, focusing on Computational Interaction, User and World Modeling, and Accessibility in Extended Reality (XR).
