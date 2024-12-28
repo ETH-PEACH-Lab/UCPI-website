@@ -1,37 +1,37 @@
 # W12 - Educational Games for Programming
 
-Programming is becoming an indispensable part of our daily lives, shaping industries from healthcare to entertainment. As a result, more people are diving into the world of coding, often through self-study. But how do you start? For novices, the learning pathways are diverse—from traditional books to massively open online courses (MOOCs) like Codecademy, edX, and Khan Academy. Creative tools like Scratch [1] and Alice or educational games like LightBot and Gidget offer engaging and interactive ways to begin. 
+Programming is becoming an indispensable part of our daily lives, shaping industries from healthcare to entertainment. As a result, more people are diving into the world of coding, often through self-study. But how do you start? For novices, the learning pathways are diverse—from traditional books to massively open online courses (MOOCs) like Codecademy, edX, and Khan Academy. Creative tools like Scratch [1] and Alice or educational games like LightBot [2] and Gidget [3] offer engaging and interactive ways to begin. 
 
 Join me, Ziyu Ma, a second-year master's student at ETH, as we delve into the world of educational programming games.
 
 ## Examples of Educational Programming Games
-Educational programming games share common design features, often teaching concepts through a series of levels. Players guide a character to solve puzzles by applying programming principles using a mouse, keyboard, or touchpad. Let’s explore a few notable examples:
+Educational programming games share common design features, often teaching concepts through a series of levels. Players guide a character to solve puzzles by applying programming principles using a mouse, keyboard, or touchpad [6]. Let’s explore a few notable examples:
 
 ### Block-Based Programming Games
 Syntax is a known barrier to entry for novices. To address this, block-based programming games use graphical, drag-and-drop interfaces that make syntax errors impossible. These games introduce core concepts with minimal reliance on natural language, benefiting non-English users and underrepresented populations.
-* **LightBot**: Players command a robot to navigate mazes and turn on lights by arranging blocks of symbols to create instructions. Without typing any code, users learn sequencing, procedures, overloading, recursive loops, and conditionals. 
-* **Reduct**: This game introduces concepts like functions, Booleans, equality, and conditionals, and mapping functions over sets. Players drag blocks into other blocks and execute code using reduction-based operational semantics.
+* **LightBot** [2]: Players command a robot to navigate mazes and turn on lights by arranging blocks of symbols to create instructions. Without typing any code, users learn sequencing, procedures, overloading, recursive loops, and conditionals. 
+* **Reduct** [4]: This game introduces concepts like functions, Booleans, equality, and conditionals, and mapping functions over sets. Players drag blocks into other blocks and execute code using reduction-based operational semantics.
 ### Code-Based Programming Games
 These games require players to write code, offering an introduction to syntax.
-* **Gidget**: This online debugging game engages players in fixing faulty code provided by a robotic character to complete missions. Using a Python-like language designed specifically for the game, players learn variables, functions, loops, stack, and debugging by executing code line by line.
-* **CodeCombat**: Offering visually appealing gameplay, CodeCombat allows users to write code in popular languages like Python, JavaScript, and C++. It teaches loops, strings, functions, and more while covering computer science fundamentals and introductory game and web development concepts.
+* **Gidget** [3]: This online debugging game engages players in fixing faulty code provided by a robotic character to complete missions. Using a Python-like language designed specifically for the game, players learn variables, functions, loops, stack, and debugging by executing code line by line.
+* **CodeCombat** [5]: Offering visually appealing gameplay, CodeCombat allows users to write code in popular languages like Python, JavaScript, and C++. It teaches loops, strings, functions, and more while covering computer science fundamentals and introductory game and web development concepts.
 ### Games for Advanced Concepts
 While most educational programming games focus on foundational topics, a select few tackle more advanced concepts.
 * **Data Structures and Algorithms (DSA)**:
-Studies have shown that traditional visual aids like diagrams and animations often fall short in teaching data structures and algorithms effectively due to a lack of interactivity and motivational appeal. Games such as **DeCode** address this gap by introducing arrays, lists, queues, and stacks through creative metaphors. In DeCode, data elements are represented as vehicles and memory locations as parking spaces. 
+Studies have shown that traditional visual aids like diagrams and animations often fall short in teaching data structures and algorithms effectively due to a lack of interactivity and motivational appeal [7]. Games such as **DeCode** [7] address this gap by introducing arrays, lists, queues, and stacks through creative metaphors. In DeCode, data elements are represented as vehicles and memory locations as parking spaces. 
 
 * **Object-Oriented Programming (OOP)**:
-**POO SG** uses a zoo setting where animals serve as objects. Players interact with these objects to learn core OOP principles such as classes, inheritance, and polymorphism. 
+**POO SG** [8] uses a zoo setting where animals serve as objects. Players interact with these objects to learn core OOP principles such as classes, inheritance, and polymorphism. 
 
 * **Artificial Intelligence (AI)**:
-With AI becoming a vital part of modern technology, some games have started to introduce learners to key AI concepts. **ArtBot**, for instance, allows players to train an image classifier by tweaking parameters. Players can also train a reinforcement-learning robot by selecting rewards, adjusting training durations, balancing exploration and exploitation, and setting learning rates. These activities provide an engaging way to explore AI principles like decision-making and optimization.
+With AI becoming a vital part of modern technology, some games have started to introduce learners to key AI concepts. **ArtBot** [9], for instance, allows players to train an image classifier by tweaking parameters. Players can also train a reinforcement-learning robot by selecting rewards, adjusting training durations, balancing exploration and exploitation, and setting learning rates. These activities provide an engaging way to explore AI principles like decision-making and optimization.
 
 * **Collaborative Learning in AI**:
-While many AI games are designed for solo play, **Co-ML** takes a collaborative approach. It encourages learners to work together to collect data for machine learning image classifiers. For example, a family setting collaborates on designing datasets, addressing challenges like data diversity, class imbalance, and quality.
+While many AI games are designed for solo play, **Co-ML** [10] takes a collaborative approach. It encourages learners to work together to collect data for machine learning image classifiers. For example, a family setting collaborates on designing datasets, addressing challenges like data diversity, class imbalance, and quality.
 
 ## Theories and Effectiveness of Educational Programming Games
 Why choose educational programming games over other learning methods? Are they truly effective, or are they simply an entertaining distraction? 
-An experiment was conducted to evaluate three different learning methods: the Python course on **Codecademy**, the debugging puzzle game **Gidget**, and Gidget’s open-ended creative environment called the **Puzzle Designer**, which is similar to tools like Scratch and Alice. Each of these approaches is based on a distinct teaching philosophy.
+An experiment [11] was conducted to evaluate three different learning methods: the Python course on **Codecademy**, the debugging puzzle game **Gidget**, and Gidget’s open-ended creative environment called the **Puzzle Designer**, which is similar to tools like Scratch and Alice. Each of these approaches is based on a distinct teaching philosophy.
 * **MOOCs** like Codecademy adopt a traditional classroom-style approach, offering structured lessons and exercises that guide learners through programming topics step by step.
 *	**Open-ended creative environments** are rooted in constructivist teaching theories. These platforms foster self-discovery by encouraging learners to experiment, make mistakes, and build projects independently. However, without guidance from experienced mentors, learners may struggle to understand why their programs work, potentially limiting their conceptual understanding.
 *	**Educational programming games**, on the other hand, often follow a comprehension-first approach. This method prioritizes helping learners develop a clear mental model of programming concepts before diving into hands-on practice.
@@ -40,9 +40,9 @@ The study assessed using pre- and post-tests comprising multiple-choice question
 
 ## Exploring the Design Decisions in Educational Programming Games
 
-Studies also examine alternative design decisions in educational games. For example, a game called **Bots & (Main)Frame** explored using tangible blocks as input methods and collaborative play. The results showed that tangible input increased engagement and learning outcomes, while collaboration reduced programming anxiety.
+Studies also examine alternative design decisions in educational games [6]. For example, a game called **Bots & (Main)Frame** explored using tangible blocks as input methods and collaborative play. The results showed that tangible input increased engagement and learning outcomes, while collaboration reduced programming anxiety.
 
-However, tangible designs are often impractical for complex operations, such as loops with varying body sizes. Also, they are hard to transport. **Osmo** is an educational programming game that uses tangible wooden pieces to interact with an iPad. These lightweight and portable objects serve as a potential inspiration for designing similar blocks. 
+However, tangible designs are often impractical for complex operations, such as loops with varying body sizes. Also, they are hard to transport. **Osmo** [12] is an educational programming game that uses tangible wooden pieces to interact with an iPad. These lightweight and portable objects serve as a potential inspiration for designing similar blocks. 
 
 ## The Future of Educational Programming Games
 1.	**A Centralized Platform for Programming Games**:
@@ -60,9 +60,28 @@ Educational programming games are powerful tools for teaching core programming c
 
 ### References
 
-[1] Resnick, M., Maloney, J., Monroy-Hernández, A., Rusk, N., Eastmond, E., Brennan, K., Millner, A., Rosenbaum, E., Silver, J., Silverman, B., & Kafai, Y. (2009). Scratch: Programming for all. Communications of the ACM, 52(11), 60–67. https://doi.org/10.1145/1592761.1592779
+[1] Resnick, M., Maloney, J., Monroy-Hernández, A., Rusk, N., Eastmond, E., Brennan, K., Millner, A., Rosenbaum, E., Silver, J., Silverman, B., & Kafai, Y. (2009). Scratch: Programming for all. Communications of the ACM, 52(11), 60–67. https://doi.org/10.1145/1592761.1592779.
+
+[2] Wikipedia contributors. (n.d.). Lightbot. Wikipedia. https://en.wikipedia.org/wiki/Lightbot.
+
+[3] Lee, M. (2014). Gidget: An online debugging game for learning and engagement in computing education. In 2014 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC) (pp. 193-194).
+
+[4] Arawjo, I., Wang, C.Y., Myers, A., Andersen, E., & Guimbretière, F. (2017). Teaching Programming with Gamified Semantics. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (pp. 4911–4923). Association for Computing Machinery.
+
+[5] CodeCombat. (n.d.). CodeCombat: Learn programming through games. CodeCombat. https://codecombat.com/.
+
+[6] Melcer, E., & Isbister, K. (2018). Bots & (Main)Frames: Exploring the Impact of Tangible Blocks and Collaborative Play in an Educational Programming Game. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (pp. 1–14). Association for Computing Machinery.
+
+[7] Su, S., Zhang, E., Denny, P., & Giacaman, N. (2021). A Game-Based Approach for Teaching Algorithms and Data Structures using Visualizations. Proceedings of the 52nd ACM Technical Symposium on Computer Science Education, 1128–1134. Presented at the Virtual Event, USA. doi:10.1145/3408877.3432520.
+
+[8] Lotfi, E., & Mohammed, B. (2018). Teaching Object Oriented Programming Concepts Through a Mobile Serious Game. Proceedings of the 3rd International Conference on Smart City Applications. Presented at the Tetouan, Morocco. doi:10.1145/3286606.3286851.
+
+[9] Voulgari, I., Zammit, M., Stouraitis, E., Liapis, A., & Yannakakis, G. (2021). Learn to Machine Learn: Designing a Game Based Approach for Teaching Machine Learning to Primary and Secondary Education Students. In Proceedings of the 20th Annual ACM Interaction Design and Children Conference (pp. 593–598). Association for Computing Machinery.
+
+[10] Tseng, T., King Chen, J., Abdelrahman, M., Kery, M., Hohman, F., Hilliard, A., & Shapiro, R. (2023). Collaborative Machine Learning Model Building with Families Using Co-ML. In Proceedings of the 22nd Annual ACM Interaction Design and Children Conference (pp. 40–51). Association for Computing Machinery.
+
+[11] Lee, M., & Ko, A. (2015). Comparing the Effectiveness of Online Learning Approaches on CS1 Learning Outcomes. In Proceedings of the Eleventh Annual International Conference on International Computing Education Research (pp. 237–246). Association for Computing Machinery.
+
+[12] Wikipedia contributors. (n.d.). Osmo (game system). Wikipedia. https://en.wikipedia.org/wiki/Osmo_(game_system).
 
 
-* Melcer, E. F., & Isbister, K. (2018, April). [Bots & (Main) frames](https://dl.acm.org/doi/pdf/10.1145/3173574.3173840): exploring the impact of tangible blocks and collaborative play in an educational programming game. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (pp. 1-14).\
-
-* [Co-ML](https://machinelearning.apple.com/research/collaborative-machine-learning): Tseng, T., King Chen, J., Abdelrahman, M., Kery, M. B., Hohman, F., Hilliard, A., & Shapiro, R. B. (2023, June). Collaborative Machine Learning Model Building with Families Using Co-ML. In Proceedings of the 22nd Annual ACM Interaction Design and Children Conference (pp. 40-51).
