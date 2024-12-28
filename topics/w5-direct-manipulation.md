@@ -1,9 +1,9 @@
-# W5 - Direct Manipulation
+# W5 - Output-Directed Programming
 
 Since the dawn of computing, two paradigms have dominated how we instruct machines: **text-based programming**, where developers write code to define behaviors and computations, and **direct manipulation**, where users interact with software interfaces to adjust and create content visually. Consider the evolution of graphics programming as a case study:
 
 Early video game developers, like Carol Shaw \[[9](#references)\], the creator of 3D Tic-Tac-Toe on the Atari 2600, would write some **code, compile and run** the program, and watch whether the shapes drawn onto the screen achieved their intended effect. If a point was off or a color felt wrong, they’d then go back into the code and repeat the entire process until they got the design right.  
-Nowadays, people use graphics software like Sketch \[[10](#references)\] to draw shapes with their mouse, drag around points, and select from a color picker. The **“what you see is what you get” paradigm** of direct manipulation is clearly the more natural way of creating vector graphics, and some would argue even to build User Interfaces. Yet, for many tasks, text-based programming remains indispensable. Why?
+Nowadays, people use graphics software like Sketch \[[10](#references)\] to draw shapes with their mouse, drag around points, and select from a color picker. The **“what you see is what you get” paradigm** of direct manipulation is clearly the more natural way of creating vector graphics, and some would argue even to build user interfaces (UIs). Yet, for many tasks, text-based programming remains indispensable. Why?
 
 ![A comparison of text-based programming and direct manipulation.](./w5-direct-manipulation-media/intro.png)
 
