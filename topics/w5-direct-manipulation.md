@@ -5,7 +5,7 @@ Since the dawn of computing, two paradigms have dominated how we instruct machin
 Early video game developers, like Carol Shaw \[[9](#references)\], the creator of 3D Tic-Tac-Toe on the Atari 2600, would write some code, compile and run the program, and watch whether the shapes drawn onto the screen achieved their intended effect. If a point was off or a color felt wrong, they’d then go back into the code and repeat the entire process until they got the design right.  
 Nowadays, people use graphics software like Sketch \[[10](#references)\] to draw shapes with their mouse, drag around points, and select from a color picker. The “what you see is what you get” paradigm of direct manipulation is clearly the more natural way of creating vector graphics, and some would argue even to build User Interfaces. Yet, for many tasks, text-based programming remains indispensable. Why?
 
-![A comparison of text-base programming and direct manipulation](./w5-direct-manipulation-media/intro.pdf)
+![A comparison of text-base programming and direct manipulation](./w5-direct-manipulation-media/intro.png)
 
 The power of code lies in its flexibility and abstraction. Developers can encode geometry using mathematical relationships, derive complex shapes from formulas, and build parametric designs that are responsive and reusable. Code allows precise control over the rendering process and can scale complexity in ways visual tools often cannot. That said, thinking in numbers and abstract relationships is challenging, and the iterative, trial-and-error nature of coding adds friction to the creative process.
 
@@ -17,7 +17,7 @@ But what if we didn’t have to choose? What if we could directly interact with 
 
 Before its formal definition in 2019 through Hempel et al. \[[1](#references)\], many incremental works shaped its foundations:
 
-![A sampler of related work](./w5-direct-manipulation-media/related-work.pdf)
+![A sampler of related work](./w5-direct-manipulation-media/related-work.png)
 
 Expanding on the core ideas of [Live Programming](./w6-live-programming.md), where people see their code’s output immediately and can travel through time, Sean McDermid’s APX \[[3](#references)\] introduced **mouse-based direct manipulation in code**. Programmers can modify number literals, extract expressions to variables, and abstract code blocks to functions by holding and dragging their mouse cursor in the IDE.
 
@@ -31,7 +31,7 @@ Finally, unifying ideas from the previous works, Hempel et al. developed **the f
 
 Making Output-Directed Programming a reality requires an IDE to understand and synthesize human-like code.
 
-![An overview of existing methods](./w5-direct-manipulation-media/method.pdf)
+![An overview of existing methods](./w5-direct-manipulation-media/method.png)
 
 Transmorphic and Sketch-n-Sketch use **Abstract Syntax Trees (ASTs)** to map code abstractions—such as functions, arrays, or maps—to interactive widgets, creating a hierarchy like matryoshka dolls. Refactoring options depend on the selected abstraction, enabling targeted edits like inlining or abstraction. This approach works well with **functional languages**, where expressions map directly to visual representations but are harder to get right with imperative languages.
 
