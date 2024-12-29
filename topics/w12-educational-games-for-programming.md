@@ -29,6 +29,16 @@ These games require players to write code, offering an introduction to syntax.
 * **CodeCombat**[^5]: Offering visually appealing gameplay, CodeCombat allows users to write code in popular languages like Python, JavaScript, and C++. It teaches loops, strings, functions, and more while covering computer science fundamentals and introductory game and web development concepts.
 ### Games for Advanced Concepts
 While most educational programming games focus on foundational topics, a select few tackle more advanced concepts.
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <img src="./img/w12-EG-DeCode.PNG" alt="DeCode game" title="DeCode" width="47%">
+  <img src="./img/w12-EG-ArtBot.png" alt="ArtBot game" title="ArtBot" width="50%">
+</div>
+
+*Left: DeCode, Right: ArtBot*
+
+<br>
+
 * **Data Structures and Algorithms (DSA)**:
 Studies have shown that traditional visual aids like diagrams and animations often fall short in teaching data structures and algorithms effectively due to a lack of interactivity and motivational appeal[^7]. Games such as **DeCode**[^7] address this gap by introducing arrays, lists, queues, and stacks through creative metaphors. In DeCode, data elements are represented as vehicles and memory locations as parking spaces. 
 
@@ -52,9 +62,23 @@ The study assessed using pre- and post-tests comprising multiple-choice question
 
 ## Exploring the Design Decisions in Educational Programming Games
 
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <img src="./img/w12-EG-BotsMainFrames.PNG" alt="Bots & (Main)Frames game" title="Bots & (Main)Frames" width="31%">
+  <img src="./img/w12-EG-BotsMainFrames-Blocks.PNG" alt="Bots & (Main)Frames Blocks" title="Bots & (Main)Frames Blocks" width="33%">
+  <img src="./img/w12-EG-Osmo.gif" alt="Bots & (Main)Frames Blocks" title="Bots & (Main)Frames Blocks" width="35%">
+</div>
+
+<br>
+
+*From left to right: Bots & (Main)Frames, Bots & (Main)Frames Blocks, Osmo*
+
+<br>
+
 Studies also examine alternative design decisions in educational games[^6]. For example, a game called **Bots & (Main)Frame** explored using tangible blocks as input methods and collaborative play. The results showed that tangible input increased engagement and learning outcomes, while collaboration reduced programming anxiety.
 
-However, tangible designs are often impractical for complex operations, such as loops with varying body sizes. Also, they are hard to transport. **Osmo**[^12] is an educational programming game that uses tangible wooden pieces to interact with an iPad. These lightweight and portable objects serve as a potential inspiration for designing similar blocks. 
+However, tangible designs are often impractical for complex operations, such as loops with varying body sizes. Also, they are hard to transport. **Osmo**[^12] is an educational programming game that uses tangible plastic pieces to interact with an iPad. These lightweight and portable objects serve as a potential inspiration for designing similar blocks. 
+
+
 
 ## The Future of Educational Programming Games
 1.	**A Centralized Platform for Programming Games**:
