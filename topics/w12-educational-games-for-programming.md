@@ -74,7 +74,7 @@ The study assessed using pre- and post-tests comprising multiple-choice question
 
 <br>
 
-Studies also examine alternative design decisions in educational games[^6]. For example, a game called **Bots & (Main)Frame** explored using tangible blocks as input methods and collaborative play. The results showed that tangible input increased engagement and learning outcomes, while collaboration reduced programming anxiety.
+Studies also examine alternative design decisions in educational games[^6]. For example, a game called **Bots & (Main)Frames** explored using tangible blocks as input methods and collaborative play. The results showed that tangible input increased engagement and learning outcomes, while collaboration reduced programming anxiety.
 
 However, tangible designs are often impractical for complex operations, such as loops with varying body sizes. Also, they are hard to transport. **Osmo**[^12] is an educational programming game that uses tangible plastic pieces to interact with an iPad. These lightweight and portable objects serve as a potential inspiration for designing similar blocks. 
 
