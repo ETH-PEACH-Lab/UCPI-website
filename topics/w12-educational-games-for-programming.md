@@ -11,14 +11,20 @@ Educational programming games share common design features, often teaching conce
 Syntax is a known barrier to entry for novices. To address this, block-based programming games use graphical, drag-and-drop interfaces that make syntax errors impossible. These games introduce core concepts with minimal reliance on natural language, benefiting non-English users and underrepresented populations.
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
-  <img src="./img/w12-EG-LightBot.gif" alt="LightBot game" title="LightBot" width="48%">
-  <img src="./img/w12-EG-Reduct.gif" alt="Reduct game" title="Reduct" width="48%">
+  <img src="./img/w12-EG-LightBot.gif" alt="LightBot game" title="LightBot" width="49%">
+  <img src="./img/w12-EG-Reduct.gif" alt="Reduct game" title="Reduct" width="49%">
 </div>
 
 * **LightBot**[^2]: Players command a robot to navigate mazes and turn on lights by arranging blocks of symbols to create instructions. Without typing any code, users learn sequencing, procedures, overloading, recursive loops, and conditionals. 
 * **Reduct**[^4]: This game introduces concepts like functions, Booleans, equality, and conditionals, and mapping functions over sets. Players drag blocks into other blocks and execute code using reduction-based operational semantics.
 ### Code-Based Programming Games
 These games require players to write code, offering an introduction to syntax.
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <img src="./img/w12-EG-Gidget.gif" alt="Gidget game" title="Gidget" width="49%">
+  <img src="./img/w12-EG-CodeCombat.gif" alt="CodeCombat game" title="CodeCombat" width="49%">
+</div>
+
 * **Gidget**[^3]: This online debugging game engages players in fixing faulty code provided by a robotic character to complete missions. Using a Python-like language designed specifically for the game, players learn variables, functions, loops, stack, and debugging by executing code line by line.
 * **CodeCombat**[^5]: Offering visually appealing gameplay, CodeCombat allows users to write code in popular languages like Python, JavaScript, and C++. It teaches loops, strings, functions, and more while covering computer science fundamentals and introductory game and web development concepts.
 ### Games for Advanced Concepts
