@@ -26,7 +26,7 @@ The simplest form of letting the computer perform tasks shown by the user is an 
 
 
 ##### Rule-Based PBDs
-An example of a rule-based programming by demonstration tool is a robot[[2]](#2). The PBD part is done by demonstrating to the robot the motions of the task and teaching it when to perform these actions. Several examples with each having different positions are necessary for generalization. The robot can accumulate actions and perform each at the desired point in time. This seems like the auto clicker, but it has to understand the 3D movement and generalize it, for each scenario decide what to do and the movements could be reused for different tasks.
+An example of a rule-based programming by demonstration tool is a robot[[2]](#2). The PBD part is done by demonstrating to the robot the motions of the task and teaching it when to perform these actions. Several examples with each having different positions are necessary for generalization. The robot can accumulate actions and perform each at the desired point in time. This seems like the auto clicker, but it has to understand the 3D movement and generalize it and for each scenario decide what to do.
 
 
 ##### Programming Synthesis-Based PBDs
