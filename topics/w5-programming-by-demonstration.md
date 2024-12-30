@@ -26,7 +26,7 @@ The simplest form of letting the computer perform tasks shown by the user is an 
 
 
 ##### Rule-Based PBDs
-An example of a rule-based programming by demonstration tool is a chess robot[[2]](#2). The PBD part is done by moving the robot through the desired motions and teaching it when to perform these actions. The robot can accumulate actions and perform each at the desired point in time. This seems like the auto clicker, but it has to understand the 3D movement and generalize it, for each scenario decide what to do and the movements could be reused for different tasks.
+An example of a rule-based programming by demonstration tool is a robot[[2]](#2). The PBD part is done by demonstrating to the robot the motions of the task and teaching it when to perform these actions. Several examples with each having different positions are necessary for generalization. The robot can accumulate actions and perform each at the desired point in time. This seems like the auto clicker, but it has to understand the 3D movement and generalize it, for each scenario decide what to do and the movements could be reused for different tasks.
 
 
 ##### Programming Synthesis-Based PBDs
@@ -75,8 +75,8 @@ Example of a simple auto-clicker.
 https://www.opauto-clicker.com/
 
 <a id="2">[2]</a> 
-Chess robot: A. Billard, S. Calinon, R. Dillmann, & S. Schaal (January 3, 2008). 
-Chess robot that uses Programming by demonstration to learn chess. 
+PBD Robot: A. Billard, S. Calinon, R. Dillmann, & S. Schaal (January 3, 2008). 
+Robot that uses Programming by demonstration to learn. 
 https://calinon.ch/papers/Billard-handbookOfRobotics.pdf
 
 <a id="3">[3]</a> 
