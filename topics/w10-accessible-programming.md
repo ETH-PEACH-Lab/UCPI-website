@@ -76,3 +76,7 @@ Li, J., Yan, Z., Jarjue, E., Shetty, A., & Peng, H. (2022). TangibleGrid: Tangib
 Mountapmbeme, A., Okafor, O., & Ludi, S. (2022). Addressing accessibility barriers in programming for people with visual impairments: A literature review. *ACM Trans. Access. Comput.*, 15(1), Article 7. https://doi.org/10.1145/3507469
 
 Potluri, V., Vaithilingam, P., Iyengar, S., Vidya, Y., Swaminathan, M., & Srinivasa, G. (2018). CodeTalk: Improving Programming Environment Accessibility for Visually Impaired Developers. *Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems*.
+
+## About the Author
+
+My name is Jannis Widmer, and I am currently pursuing a master’s degree in computer science at ETHZ.
