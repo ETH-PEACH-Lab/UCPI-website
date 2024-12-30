@@ -65,7 +65,7 @@ The study assessed using pre- and post-tests comprising multiple-choice question
 <div style="display: flex; justify-content: space-between; align-items: center;">
   <img src="./img/w12-EG-BotsMainFrames.PNG" alt="Bots & (Main)Frames game" title="Bots & (Main)Frames" width="31%">
   <img src="./img/w12-EG-BotsMainFrames-Blocks.PNG" alt="Bots & (Main)Frames Blocks" title="Bots & (Main)Frames Blocks" width="33%">
-  <img src="./img/w12-EG-Osmo.gif" alt="Bots & (Main)Frames Blocks" title="Bots & (Main)Frames Blocks" width="35%">
+  <img src="./img/w12-EG-Osmo.gif" alt="Osmo" title="Osmo" width="35%">
 </div>
 
 <br>
