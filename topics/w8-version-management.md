@@ -18,7 +18,8 @@ git push
 Version management has many benefits, such as easy collaboration, and tracing back or recovering older code versions, as shown in a typical development workflow illustrated below.
 
 
-![Version management with git enables collaboration, traceability, and recoverability.](/topics/img/version-management.png)
+<!-- ![Version management with git enables collaboration, traceability, and recoverability.](/topics/img/version-management.png) -->
+![Version management with git enables collaboration, traceability, and recoverability.](https://raw.githubusercontent.com/ETH-PEACH-Lab/UCPI-website/refs/heads/main/topics/img/version-management.png)
 
 The benefits of version management are not only relevant to large-scale productionalized codebases, but also coding environments that work on smaller scales, such as the rapid and exploratory prototyping and data analysis frequently implemented in *jupyter notebooks*. 
 However, managing Jupyter Notebook versions using standard versioning tools such as github is [notoriously difficult and messy](https://github.com/brian-rose/notebook_diff_tutorial).
@@ -35,7 +36,8 @@ Developing code in jupyter notebooks is... a messy process. Getting to a final v
 
 <!-- When questioning data analysts about what they care about when organizing notebooks,  -->
 
-![Version management with git enables collaboration, traceability, and recoverability.](/topics/img/notebook-development-smaller.gif)
+<!-- ![Version management with git enables collaboration, traceability, and recoverability.](/topics/img/notebook-development-smaller.gif) -->
+![Version management with git enables collaboration, traceability, and recoverability.](https://raw.githubusercontent.com/ETH-PEACH-Lab/UCPI-website/refs/heads/main/topics/img/notebook-development-smaller.gif)
 
 During exploration, it is natural to prioritize discovery over writing high-quality code. However, when it comes to sharing or going back on old results, most analysts would want to first clean up their code to
 <!-- t turns out that data analysts require support when cleaning up their notebooks to  -->
@@ -51,7 +53,9 @@ During exploration, it is natural to prioritize discovery over writing high-qual
 
 - **deletion**: relevant code may be accidentally deleted and old code versions overwritten during analysis or cleanup. This is especially pertinent to notebooks, where, e.g., persistent kernel memory may hide accidental deletion.
 
-![The three types of messes in notebooks: disorder, dispersal, and deletion.](/topics/img/messes.png)
+<!-- ![The three types of messes in notebooks: disorder, dispersal, and deletion.](/topics/img/messes.png) -->
+![The three types of messes in notebooks: disorder, dispersal, and deletion.](https://raw.githubusercontent.com/ETH-PEACH-Lab/UCPI-website/refs/heads/main/topics/img/messes.png)
+
 
 Such *messes* occur in most notebooks. For instance, nearly half of public notebooks on GitHub have cell disorder, i.e., the cells were executed in a different order than they are listed. 
 
@@ -63,7 +67,10 @@ Such *messes* occur in most notebooks. For instance, nearly half of public noteb
 
 2. the user may then see the **result versions** for code cells that were executed multiple times, e.g., when a user may test different parameters for the same model.
 
-![Minimal snippets and result versions provide portability and version management.](/topics/img/features.png)
+<!-- ![Minimal snippets and result versions provide portability and version management.](/topics/img/features.png) -->
+
+![Minimal snippets and result versions provide portability and version management.](https://raw.githubusercontent.com/ETH-PEACH-Lab/UCPI-website/refs/heads/main/topics/img/features.jpg)
+
 
 
 ## Implications, Discussion, and Outlook 
