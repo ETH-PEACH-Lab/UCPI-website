@@ -81,7 +81,7 @@ For instance:
     - Finally, how does this integrate with other version management tools, like git?
     
 - **[Opportunities for Interactivity and Visualization for Versioning]**: The highlighted limitations of the Code Gathering tools show the potential for follow-up work that helps users better navigate result versioning. One future avenue of work is improving notebook diff visualizations across text, code, and plots on different granularities to help a user better understand and aggregate changes for notebooks with large edit histories. For instance, [Loops](https://doi.org/10.1109/TVCG.2024.3456186) proposes such compact and detailed diff widgets that help a user get a fast overview of notebook versions.
-Further, providing navigational guidance between versions is highly relevant to the issue of scale, and could potentially also be supported through interactive features such as meaningful semantic version grouping and search, like the ones implemented by [Verdant](https://marybethkery.com/Verdant/), a notebook provenance tool.
+Further, providing navigational guidance between versions is highly relevant to the issue of scale, and could potentially also be supported through interactive features such as intelligent semantic version grouping and search, improving on the ones implemented by [Verdant](https://marybethkery.com/Verdant/), a notebook provenance tool.
 
 ### Reading List
 
