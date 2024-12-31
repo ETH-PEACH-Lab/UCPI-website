@@ -41,6 +41,11 @@ Colaroid has shown to achieve great satisfaction with both authors and readers. 
 Currently Colaroid is limited to webdevelopement, as the output features work best when producing visual outputs. But the basic system could easily be expanded to other programming domains.
 It is also limited to Visual Studio Code and doesn't work in any other coding environments.
 
+### Outlook on the future of programming tutorial tools
+
+Programming tutorials will most likely stay relevant in the future, and therefore will be more and more tools developed to simplify the task of writing these tutorials. Obviously we have to talk about how machine learning could be of use here. Large language models in particular might be of interest as for example one could imagine a feature where a model automatically writes a first draft for descriptions of code snippets or a chatbot that further explains certain parts of a tutorial.
+Aside from machine learning, tutorials could further be expanded with more interactability like exercises or even gamification depending on the intended userbase.
+
 
 ### References
 [1] Mark Mahoney. (2018). Storyteller: a tool for creating worked examples. J. Comput. Sci. Coll. 34, 1 (October 2018), 137–144.
