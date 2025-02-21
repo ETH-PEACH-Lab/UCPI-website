@@ -26,7 +26,7 @@ Under the hood, Hazel uses tools from formal type theory, especially typed lambd
 
 While in my personal experience, the benefits of the method are not immediately apparent from the paper and the live demo the authors provide, other works have used this framework to implement provably correct editor diagnostics features. For example, it is possible to leverage the formal grammar to provide a better starting point for code auto-completion, as the required type for program holes is known[^6]. Another possible application close to my heart as a web developer is type error localization. Anyone who has worked with TypeScript professionally knows the horrors that the TypeScript type system can produce:
 
-![Aweful TypeScript errors in VS Code editor](./w4-structure-editors.assets/YbG9Q.png)
+![Awful TypeScript errors in VS Code editor](./w4-structure-editors.assets/YbG9Q.png)
 
 Such errors are utterly unreadable, causing developers to simply ignore the error message. Developers would then rely on their common sense or other heuristics to find the error. We can leverage the information given by type holes (which represent missing or incorrect types in a partial program) to provide more localized and meaningful information about a given type error, pinpointing the error to the developer[^7].
 
