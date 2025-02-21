@@ -1,6 +1,10 @@
-# W11 - Low Code Approach for Teaching Programming
+---
+description: 'Author: A. Morente'
+---
 
-Imagine being a 10-year-old discovering programming for the first time. Instead of struggling with intricate text or confusing symbols, you are building programs by snapping together colorful blocks, just like assembling Lego. With a few clicks, you can bring characters on your screen to life. That's the beauty of Scratch&mdash;a visual programming language that makes coding simple, exciting, and full of creativity for everyone.
+# W10 - Low Code Approach for Teaching Programming
+
+Imagine being a 10-year-old discovering programming for the first time. Instead of struggling with intricate text or confusing symbols, you are building programs by snapping together colorful blocks, just like assembling Lego. With a few clicks, you can bring characters on your screen to life. That's the beauty of Scratch—a visual programming language that makes coding simple, exciting, and full of creativity for everyone.
 
 ### Why low code approaches?
 
@@ -66,7 +70,7 @@ In this AI-supported future, you would see your ideas come to life right away, c
 
 ### Mixed Reality
 
-The success of Strawbies points to the potential of merging physical interaction with digital programming. Mixed reality technologies, which include both virtual reality (VR) and augmented reality (AR), can push this even further by placing learners in a 3D programming environment that blends the digital world with the physical one around them. In VR, users wear a headset that immerses them in a fully virtual space where they can grab, move, or modify objects as if they were real. 
+The success of Strawbies points to the potential of merging physical interaction with digital programming. Mixed reality technologies, which include both virtual reality (VR) and augmented reality (AR), can push this even further by placing learners in a 3D programming environment that blends the digital world with the physical one around them. In VR, users wear a headset that immerses them in a fully virtual space where they can grab, move, or modify objects as if they were real.
 
 Within these settings, the concept of programming by demonstration allows users to define behavior and logic through direct, hands-on interaction. For example, moving a virtual character or resizing an object with a simple gesture could instantly generate or adjust the underlying code, reproducing those actions programmatically, removing the need to memorize or type instructions.
 
@@ -80,22 +84,12 @@ At the same time, developments in AI and mixed reality point towards a future wh
 
 ### Reading List
 
-- [Algot](https://algot.org/): Thorgeirsson, S., Weidmann, T. B., Weidmann, K. H., & Su, Z. (2024, March). Comparing Cognitive Load Among Undergraduate Students Programming in Python and the Visual Language Algot. In Proceedings of the 55th ACM Technical Symposium on Computer Science Education V. 1 (pp. 1328-1334).
-
-- [Scratch](https://scratch.mit.edu/): Resnick, M., Maloney, J., Monroy-Hernández, A., Rusk, N., Eastmond, E., Brennan, K., ... & Kafai, Y. (2009). Scratch: programming for all. Communications of the ACM, 52(11), 60-67.
-
-- [Strawbies](https://tidal.northwestern.edu/blog/strawbies/): Hu, F., Zekelman, A., Horn, M., & Judd, F. (2015, June). Strawbies: explorations in tangible programming. In Proceedings of the 14th International Conference on Interaction Design and Children (pp. 410-413).
-
-- [Alice: A 3-D Tool for Introductory Programming Concepts](https://dl.acm.org/doi/10.5555/364133.364161): Stephen Cooper, Wanda Dann, and Randy Pausch. 2000. Alice: a 3-D tool for introductory programming concepts. J. Comput. Sci. Coll. 15, 5 (May 2000), 107-116.
-
-- [App inventor and real-world motivation](https://doi.org/10.1145/1953163.1953329): David Wolber. 2011. App inventor and real-world motivation. In Proceedings of the 42nd ACM technical symposium on Computer science education (SIGCSE '11). Association for Computing Machinery, New York, NY, USA, 601-606.
-
-- [Ten things we've learned from Blockly](https://doi.org/10.1109/BLOCKS.2015.7369000): Neil Fraser. 2015. Ten things we've learned from Blockly. In Proceedings of the 2015 IEEE Blocks and Beyond Workshop (Blocks and Beyond) (BLOCKS AND BEYOND '15). IEEE Computer Society, USA, 49-50.
-
-- [Transitioning from introductory block-based and text-based environments to professional programming languages in high school computer science classrooms](https://doi.org/10.1016/j.compedu.2019.103646): David Weintrop and Uri Wilensky. 2019. Transitioning from introductory block-based and text-based environments to professional programming languages in high school computer science classrooms. Comput. Educ. 142, C (Dec 2019).
-
-- [SQLucid: Grounding Natural Language Database Queries with Interactive Explanations](https://dl.acm.org/doi/fullHtml/10.1145/3654777.3676368): Yuan Tian, Jonathan K. Kummerfeld, Toby Jia-Jun Li, and Tianyi Zhang. 2024. SQLucid: Grounding Natural Language Database Queries with Interactive Explanations. In The 37th Annual ACM Symposium on User Interface Software and Technology (UIST '24), October 13--16, 2024, Pittsburgh, PA, USA. ACM, New York, NY, USA 20 Pages.
-
-- [Helena | Web Automation for End Users](https://helena-lang.org)
-
-
+* [Algot](https://algot.org/): Thorgeirsson, S., Weidmann, T. B., Weidmann, K. H., & Su, Z. (2024, March). Comparing Cognitive Load Among Undergraduate Students Programming in Python and the Visual Language Algot. In Proceedings of the 55th ACM Technical Symposium on Computer Science Education V. 1 (pp. 1328-1334).
+* [Scratch](https://scratch.mit.edu/): Resnick, M., Maloney, J., Monroy-Hernández, A., Rusk, N., Eastmond, E., Brennan, K., ... & Kafai, Y. (2009). Scratch: programming for all. Communications of the ACM, 52(11), 60-67.
+* [Strawbies](https://tidal.northwestern.edu/blog/strawbies/): Hu, F., Zekelman, A., Horn, M., & Judd, F. (2015, June). Strawbies: explorations in tangible programming. In Proceedings of the 14th International Conference on Interaction Design and Children (pp. 410-413).
+* [Alice: A 3-D Tool for Introductory Programming Concepts](https://dl.acm.org/doi/10.5555/364133.364161): Stephen Cooper, Wanda Dann, and Randy Pausch. 2000. Alice: a 3-D tool for introductory programming concepts. J. Comput. Sci. Coll. 15, 5 (May 2000), 107-116.
+* [App inventor and real-world motivation](https://doi.org/10.1145/1953163.1953329): David Wolber. 2011. App inventor and real-world motivation. In Proceedings of the 42nd ACM technical symposium on Computer science education (SIGCSE '11). Association for Computing Machinery, New York, NY, USA, 601-606.
+* [Ten things we've learned from Blockly](https://doi.org/10.1109/BLOCKS.2015.7369000): Neil Fraser. 2015. Ten things we've learned from Blockly. In Proceedings of the 2015 IEEE Blocks and Beyond Workshop (Blocks and Beyond) (BLOCKS AND BEYOND '15). IEEE Computer Society, USA, 49-50.
+* [Transitioning from introductory block-based and text-based environments to professional programming languages in high school computer science classrooms](https://doi.org/10.1016/j.compedu.2019.103646): David Weintrop and Uri Wilensky. 2019. Transitioning from introductory block-based and text-based environments to professional programming languages in high school computer science classrooms. Comput. Educ. 142, C (Dec 2019).
+* [SQLucid: Grounding Natural Language Database Queries with Interactive Explanations](https://dl.acm.org/doi/fullHtml/10.1145/3654777.3676368): Yuan Tian, Jonathan K. Kummerfeld, Toby Jia-Jun Li, and Tianyi Zhang. 2024. SQLucid: Grounding Natural Language Database Queries with Interactive Explanations. In The 37th Annual ACM Symposium on User Interface Software and Technology (UIST '24), October 13--16, 2024, Pittsburgh, PA, USA. ACM, New York, NY, USA 20 Pages.
+* [Helena | Web Automation for End Users](https://helena-lang.org)
