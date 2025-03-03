@@ -48,6 +48,8 @@ Visual debugging is one of the most effective tools for making programming acces
 
 As AI-assisted tools become increasingly prevalent in the programming world, visual debugging tools like *Python Tutor* stand to gain immensely from AI-driven advancements. These enhancements could include providing smart suggestions, identifying errors, and even generating code snippets tailored to the learner’s needs. The next logical step is to fully integrate AI capabilities into visual debugging tools, paving the way for more seamless and interactive experiences. This integration remains an exciting frontier, offering vast opportunities for innovation and improved learning outcomes.
 
+> **James Wei** is a programmer with a keen interest in quantitative software development, computer systems, educational technology, and artificial intelligence. He is currently pursuing a Master of Science in Computer Science at ETH Zurich.
+
 
 ### References
 
