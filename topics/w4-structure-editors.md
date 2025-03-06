@@ -1,4 +1,4 @@
-![typing_monkey_upscaled](./w4-structure-editors.assets/typing_monkey_upscaled.png)
+![](./w4-structure-editors.assets/typing_monkey_upscaled.png)
 
 # Structure Editors -- Formal Language Theory for Provably Correct Program Analysis
 
@@ -8,7 +8,7 @@ There is a famous theorem, called the "infinite monkey theorem"[^1], which state
 
 Early works in the field of structure editors include the Cornell Program Synthesizer[^2], in which the authors note that programs are not simply text, but instead complex syntactical structures, which should also be edited, executed, and debugged as such. Perhaps the most well-known structure editor is Scratch[^3], which allows users to drag and drop program blocks to form a program. Researchers have tried several variations on this concept, including hybrid approaches such as Envision[^4], which allows users to switch between graphical and textual representations of code, and quickly scaffold common program structures with keyboard commands.
 
-![ucpi-final-blog-structure-editors](./w4-structure-editors.assets/ucpi-final-blog-structure-editors.png)
+![](./w4-structure-editors.assets/ucpi-final-blog-structure-editors.png)
 
 Unfortunately, such visual code editors get impractical and slow when working with larger projects in professional environments. The upside of textual programming interfaces lies in their versatility: It doesn't matter what language the programs are written in, what programming paradigm is used (e.g., object-oriented vs functional), or what level of abstraction a programming language belongs to; The trusted text interface can handle it all. On the other hand, when designing a structure editor, it is necessary to make many trade-offs regarding ease of use vs. development speed, generality vs. specialization, and the knowledge level the structure editor is designed for. Despite all of these downsides, structure editors still have their place. If done right, they can provide a fail-safe programming environment for developers at any experience level, additionally allowing for an easy understanding of the program structure as a whole.
 
@@ -18,7 +18,7 @@ At this point, we seem to have conflicting interests: We want to eliminate inval
 
 To implement Hazel, we need to define an empty edit state, and translate user inputs (e.g. key presses) into edit actions, which in turn transform the current edit state into another edit state. We can derive the underlying program from an edit state and display it in the editor; However, at this point we have a formal understanding of the semantics of the program, such as which parts are correct or where there is some missing code. This is in contrast to traditional code diagnostics, which rely on heuristics to infer the semantics of an incomplete program.
 
-![hazel-schematic](./w4-structure-editors.assets/hazel-schematic.png)
+![Schematic view of the Hazel structure editor.](./w4-structure-editors.assets/hazel-schematic.png)
 
 Under the hood, Hazel uses tools from formal type theory, especially typed lambda calculi, to formally define the semantics and well-typedness of a given program. Hazelnut's design makes it impossible to apply an edit action that results in an ill-typed edit state, given that the initial edit state was well-typed. Thanks to this, we have a provable guarantee for correctness in every state. You can try the Hazel editor in action at [https://hazel.org/build/dev/](https://hazel.org/build/dev/).
 
@@ -26,7 +26,7 @@ Under the hood, Hazel uses tools from formal type theory, especially typed lambd
 
 While in my personal experience, the benefits of the method are not immediately apparent from the paper and the live demo the authors provide, other works have used this framework to implement provably correct editor diagnostics features. For example, it is possible to leverage the formal grammar to provide a better starting point for code auto-completion, as the required type for program holes is known[^6]. Another possible application close to my heart as a web developer is type error localization. Anyone who has worked with TypeScript professionally knows the horrors that the TypeScript type system can produce:
 
-![enter image description here](./w4-structure-editors.assets/YbG9Q.png)
+![Awful TypeScript errors in VS Code editor](./w4-structure-editors.assets/YbG9Q.png)
 
 Such errors are utterly unreadable, causing developers to simply ignore the error message. Developers would then rely on their common sense or other heuristics to find the error. We can leverage the information given by type holes (which represent missing or incorrect types in a partial program) to provide more localized and meaningful information about a given type error, pinpointing the error to the developer[^7].
 
